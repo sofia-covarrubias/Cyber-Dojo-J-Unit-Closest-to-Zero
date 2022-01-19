@@ -157,4 +157,18 @@ public class ClosestToZeroTest {
         int actual = ClosestToZero.answer(nums);
         assertEquals(expected, actual);
     }
+    
+    @Test 
+    void noNum () {
+        int[] nums = {};
+        int expected = 0;
+        int actual = ClosestToZero.answer(nums);
+        assertEquals(expected, actual);
+    }
 }
+
+
+
+
+
+
