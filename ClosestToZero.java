@@ -9,6 +9,11 @@ public class ClosestToZero {
             return nums[0];
         }
         
+        if (nums.length == 0)
+        {
+            return 0;
+        }
+        
         int[][] numsAbsVal = new int[nums.length][nums.length];
         
         // populate first and second row of 2d array
